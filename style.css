@@ -5,27 +5,52 @@
 }
 .sidebar{
     background-color: red;
-    width: 20vw;
+    width: 17vw;
+    height: 100vh;
     
 }
 
 .sidebar nav{
-    padding: 30px;
+    padding: 50px;
 
 }
 
 .sidebar nav li{
     list-style: none;
     font-size: 30px;
-    padding: 30px;
+    padding: 33px 0;
 }
 
 .main{
     background-color: yellow;
+    width: 90vw;
+    height: 100vh;
 }
 
 .container{
     display: flex;
-    width: 100vw;
     
+    
+}
+
+.infocontainer{
+    background-color: purple;
+    height: 75vh;
+    width: 80vw;
+    margin: 85px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devpic img{
+    height: 65vh;
+    margin: 35px auto;
+    
+
+
 }
