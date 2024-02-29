@@ -1,17 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
 }
 .sidebar{
-    background-color: red;
-    width: 17vw;
+    background-color: rgb(195, 195, 195);
+    width: 14vw;
     height: 100vh;
     
 }
 
 .sidebar nav{
-    padding: 50px;
+    padding: 30px;
 
 }
 
@@ -19,10 +22,12 @@
     list-style: none;
     font-size: 30px;
     padding: 33px 0;
+    font-family: "Roboto", sans-serif;
+
 }
 
 .main{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 90vw;
     height: 100vh;
 }
@@ -34,22 +39,68 @@
 }
 
 .infocontainer{
-    background-color: purple;
-    height: 75vh;
-    width: 80vw;
-    margin: 85px auto;
+    /* background-color: rgb(135, 34, 135); */
+    height: 58vh;
+    width: 60vw;
+    margin: 115px auto;
     display: flex;
     justify-content: space-around;
 }
+
 .devinfo{
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-family: "Source Code Pro", monospace;  
 }
 
+.hello{
+    font-size: 38px;
+
+}
+
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: rgb(50, 190, 214);
+   
+
+}
+
+.about{
+    font-size: 35px;
+    
+}
+
+.moreabout{
+    
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+}
+
+.buttons{
+    margin-top: 34px;
+
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(50, 190, 214);
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0 3px;
+    
+  
+}
+
+
 .devpic img{
-    height: 65vh;
-    margin: 35px auto;
+    height: 58vh;
+    
     
 
 
