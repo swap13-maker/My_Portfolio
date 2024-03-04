@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 *{
@@ -7,27 +8,39 @@
     padding: 0;
 }
 .sidebar{
-    background-color: rgb(195, 195, 195);
-    width: 14vw;
-    height: 100vh;
+    background-color: rgb(182, 180, 180);
+    width: 434px;
+    height: 110vh;
+    
     
 }
 
 .sidebar nav{
     padding: 30px;
+    
 
 }
 
 .sidebar nav li{
     list-style: none;
-    font-size: 30px;
-    padding: 33px 0;
-    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    padding: 30px 0;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Raleway", sans-serif;
 
 }
 
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+   
+
+}
+
+
+
 .main{
-    /* background-color: yellow; */
+    /* background-color: black; */
     width: 90vw;
     height: 100vh;
 }
@@ -76,7 +89,8 @@
 
 .moreabout{
     
-    font-size: 22px;
+    font-size: 19px;
+    margin-top: 23px;
     font-family: "Roboto", sans-serif;
 }
 
@@ -87,21 +101,136 @@
 
 .buttons button{
     padding: 9px 14px;
-    border-radius: 20px;
+    border-radius: 22px;
     color: white;
     background-color: rgb(50, 190, 214);
     font-weight: bold;
     font-size: 17px;
     margin: 0 3px;
-    
+    cursor: pointer;
   
+}
+
+.buttons button :hover{
+    color: rgb(50, 190, 214);
+    background-color: yellow;
 }
 
 
 .devpic img{
     height: 58vh;
+}
+
+.contactform{
+
+    font-family: "Roboto", sans-serif;
+    padding: 100px;
+    padding-top: 100px;
+    /* padding-left: 333px; */
+
+}
+
+.contactform h1{
+    font-family: "Roboto", sans-serif;
+    padding: 5px;
+    /* font-size: 35px; */
+    color: rgb(50, 190, 214);
+}
+
+.contactform form div{
+    margin-top: 10px;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
     
+}
+
+.contactform form div input{
+    width: 30vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    font-size: 17px;
+ 
+
+}
+
+.contactform form div textarea{
+    width: 30vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    font-size: 17px;
+ 
+
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
     
+  }
+
+ 
+
+#emailHelp{
+    font-size: 15px;
+    color: mediumblue;
+    margin: 0 5px;
+
+}
+
+.contactform form button{
+    padding: 10px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(50, 190, 214);
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px 0;
+    cursor: pointer;
+    
+}
+
+
+
+.projectItem {
+    font-family: "Roboto", sans-serif;
+    margin: 20px;
+}
+
+.projectItem h2{
+    text-align: center;
+    margin: 20px;
+    
+
+}
+
+.projectItem p{
+    font-family: "Source Code Pro", monospace;  
+}
+
+.projectContainer h1{
+    font-family: "Roboto", sans-serif;
+    margin: 27px;
+    color:  rgb(50, 190, 214);
+    text-align: center;
+    /* background-color: rgb(188, 185, 185); */
 
 
 }
+
+.projectItem button{
+    padding: 06px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(50, 190, 214);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
