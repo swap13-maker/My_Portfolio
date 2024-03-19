@@ -11,7 +11,7 @@
 .sidebar {
     background-color: rgb(182, 180, 180);
     width: 434px;
-    height: 110vh;
+    height: 120vh;
     display: flex;
 }
 
@@ -90,6 +90,12 @@
     font-size: 19px;
     margin-top: 23px;
     font-family: "Roboto", sans-serif;
+}
+
+.aboutme{
+    font-size: 20px;
+    margin-top: 10px;
+
 }
 
 .buttons {
